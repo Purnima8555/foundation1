@@ -10,8 +10,7 @@ naam = "Purnima" #here, naam is a variable which stores/holds string type value 
 # And in pyhton string are always inside single or double quotes:
 #For example: "purnima" or "purnima" 
 
-#calling function with their name
-duita_name_joda()
+#calling function with their name: duita_name_joda()
 
 #taking input from user:
 #my_name=imput("Purnima")
@@ -20,15 +19,15 @@ duita_name_joda()
 f_name=input("Your first name:-->")
 l_name=input("Your second name:-->")
 
-def first_name_generator(first_name, second_namw):
+def first_name_generator(first_name, second_name):
     full_name = first_name + second_name
     return full_name
     
-print("Your full name is:", full_name_generator())
+print("Your full name is:",())
 
 #string formatting
 print("My-1 nam -2 is -3 abc-4 def-5")
 
 #len function
-length_of_this = len("Eduction")
+length_of_this = len("Education")
 print(length_of_this)
